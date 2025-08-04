@@ -25,6 +25,8 @@ source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 ```
 
+**Note**: The `venv/` directory is not included in the repository. Each developer needs to create their own virtual environment and install dependencies from `requirements.txt`.
+
 ### 2. Install Dependencies
 
 ```bash
@@ -92,7 +94,7 @@ tech-support/
 ├── tools/              # Tools package
 │   ├── __init__.py     # Tools initialization and exports
 │   └── weaviate_tool.py # Weaviate search functionality
-└── venv/               # Virtual environment (not in git)
+└── venv/               # Virtual environment (create locally)
 ```
 
 ## Dependencies
