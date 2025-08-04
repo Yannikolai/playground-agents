@@ -25,14 +25,14 @@ source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 ```
 
-**Note**: The `venv/` directory is not included in the repository. Each developer needs to create their own virtual environment and install dependencies from `requirements.txt`.
-
 ### 2. Install Dependencies
 
 ```bash
-# Install all required packages
+# Install all required packages from requirements.txt
 pip install -r requirements.txt
 ```
+
+**Note**: The `venv/` directory is not included in the repository. Each developer needs to create their own virtual environment and install dependencies from `requirements.txt`.
 
 ### 3. Environment Variables
 
