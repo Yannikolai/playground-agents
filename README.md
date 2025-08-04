@@ -13,6 +13,8 @@ A LangGraph-based agent for technical support tasks with Weaviate vector databas
 
 ### 1. Virtual Environment
 
+**Note**: The `venv/` directory is not included in the repository. Each developer needs to create their own virtual environment and install dependencies from `requirements.txt`.
+
 Create and activate a virtual environment:
 
 ```bash
@@ -31,8 +33,6 @@ venv\Scripts\activate     # On Windows
 # Install all required packages from requirements.txt
 pip install -r requirements.txt
 ```
-
-**Note**: The `venv/` directory is not included in the repository. Each developer needs to create their own virtual environment and install dependencies from `requirements.txt`.
 
 ### 3. Environment Variables
 
